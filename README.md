@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Innocent Brand's Resume</title>
+    <title>Philipe Queiroz's Resume</title>
     <style>
-        /* Innocent archetype style */
         body {
             font-family: Arial, sans-serif;
             background-color: #FAF3E0;
@@ -14,16 +13,9 @@
             margin: 0;
             padding: 0;
         }
-
-        header {
-            background-color: #E1E9F0;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .container {
+            header, .container {
             max-width: 800px;
-            margin: 40px auto;
+            margin: 20px auto;
             padding: 20px;
             background-color: #ffffff;
             border-radius: 12px;
@@ -36,57 +28,75 @@
 
         ul {
             list-style-type: none;
+            padding: 0;
         }
 
         li {
             margin-bottom: 10px;
         }
 
+        a {
+            color: #52658F;
+            text-decoration: none;
+        }
     </style>
 </head>
 
 <body>
-
     <header>
-        <h1>Innocent Brand</h1>
-        <p>Welcome to our pure and simple world</p>
+        <h1>PHILIPE QUEIROZ</h1>
+        <p>
+            <a href="mailto:PhilipeQueiroz11@gmail.com">PhilipeQueiroz11@gmail.com</a> / 
+            732-353-9490 / 
+            <a href="www.linkedin.com/in/philipe-queiroz" target="_blank">LinkedIn Profile</a>
+        </p>
     </header>
 
     <div class="container">
-        <h2>Resume</h2>
+        <h2>Education</h2>
+        <strong>New Jersey Institute of Technology, Newark NJ</strong><br>
+        Bachelor of Science in Business & Information Systems<br>
+        Anticipated Graduation – May 2025<br>
+        GPA: 3.34<br>
 
-        <h3>Personal Information</h3>
+        <h2>Skills Summary</h2>
         <ul>
-            <li><strong>Name:</strong> Jane Doe</li>
-            <li><strong>Address:</strong> 123 Pure St., Innocentville</li>
-            <li><strong>Email:</strong> jane.doe@innocentbrand.com</li>
-            <li><strong>Phone:</strong> +1 234 567 890</li>
+            <li>Bilingual</li>
+            <li>Leadership Experience</li>
+            <li>Problem-solving abilities</li>
+            <li>Time Management</li>
         </ul>
 
-        <h3>Education</h3>
+        <h2>Programming Languages</h2>
         <ul>
-            <li><strong>2015-2019:</strong> Bachelor's in Pure Thoughts, Innocent University</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
         </ul>
 
-        <h3>Work Experience</h3>
+        <h2>Experience</h2>
+
+        <h3>Valet - Park Chateau Estate and Gardens, East Brunswick, NJ</h3>
+        <p>June 2021 – Present</p>
         <ul>
-            <li><strong>2019-2022:</strong> Dreamer, Pure Dreams Inc.</li>
-            <li><strong>2022-Present:</strong> Happiness Spreader, Innocent Brand</li>
+            <li>Handled the stress of parking and retrieving cars in a busy environment, while completing customer service duties with accuracy and efficiency.</li>
         </ul>
 
-        <h3>Skills</h3>
+        <h3>Warehouse Worker - UPS, Monroe, NJ</h3>
+        <p>December 2020 – January 2020</p>
         <ul>
-            <li>Spreading joy</li>
-            <li>Thinking pure thoughts</li>
-            <li>Creating happiness</li>
+            <li>Loaded and unloaded trucks efficiently and accurately; ensured that items were properly stored in the warehouse.</li>
+            <li>Effectively grouped items depending on their final destinations and put them into the proper delivery vehicles.</li>
         </ul>
 
-        <h3>References</h3>
+        <h3>Waiter - Portuguese Fisherman, South River, NJ</h3>
+        <p>July 2018 – July 2021</p>
         <ul>
-            <li>Available upon request.</li>
+            <li>Waiter in high volume restaurant, greeting guests warmly, took orders, communicated kitchen needs effectively, adapted to changing guest needs and executed checkout processes efficiently.</li>
         </ul>
     </div>
-
 </body>
 
 </html>
